@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(900px, 1fr)
+  ); /* Adjust width as needed */
+  grid-gap: 50px; /* Adjust spacing between charts */
+}
+
+.chart-item {
+  width: 1000px; /* Adjust width to match grid-template-columns */
+  height: 900px; /* Adjust height as needed */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px; /* Adjust padding */
+}
