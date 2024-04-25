@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: performance-dashboard-api
+jaeger:
+  host: http://hostname:16686/api/traces
+server:
+  port: 8089

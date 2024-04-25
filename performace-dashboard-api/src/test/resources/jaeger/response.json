@@ -1,0 +1,1138 @@
+{
+  "data": [
+    {
+      "traceID": "e83d5476513a9997f4804f06ecf609d6",
+      "spans": [
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "4b8434edbdf453a7",
+          "operationName": "security:atz",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "f7ec475dc673fc9c"
+            }
+          ],
+          "startTime": 1713457017506299,
+          "duration": 22,
+          "tags": [
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1713457017506316,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "status: ABSTAIN"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "36c8fa659c6e3d75",
+          "operationName": "security:atn",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "f7ec475dc673fc9c"
+            }
+          ],
+          "startTime": 1713457017504547,
+          "duration": 1629,
+          "tags": [
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1713457017506167,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "status: SUCCESS"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "f7ec475dc673fc9c",
+          "operationName": "security",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "70ca3a48ca58a854"
+            }
+          ],
+          "startTime": 1713457017504459,
+          "duration": 1939,
+          "tags": [
+            {
+              "key": "security.id",
+              "type": "string",
+              "value": "33d2a5e2-be37-4ae7-ab34-644c5a68f381:17"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1713457017506396,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "status: PROCEED"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "09767a90c4497233",
+          "operationName": "Lettuce.spanget",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "c138862d6f4bf233"
+            }
+          ],
+          "startTime": 1713457017507903,
+          "duration": 899,
+          "tags": [
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "db.type",
+              "type": "string",
+              "value": "redis"
+            },
+            {
+              "key": "key",
+              "type": "string",
+              "value": "[B@a839123"
+            },
+            {
+              "key": "io.helidon.tracing.Tag$StringTagSource@3c48f484",
+              "type": "string",
+              "value": "java-redis"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "2491502831e40c5b",
+          "operationName": "OPSSAuthorization::getBOConditionsForPrivilege",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "e0f92954fa923bb9"
+            }
+          ],
+          "startTime": 1713457017513271,
+          "duration": 444,
+          "tags": [
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-2"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "1c4dced1ab4a85bd",
+          "operationName": "Lettuce.spanget",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "c138862d6f4bf233"
+            }
+          ],
+          "startTime": 1713457017508893,
+          "duration": 173,
+          "tags": [
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "db.type",
+              "type": "string",
+              "value": "redis"
+            },
+            {
+              "key": "key",
+              "type": "string",
+              "value": "[B@1018414a"
+            },
+            {
+              "key": "io.helidon.tracing.Tag$StringTagSource@3c48f484",
+              "type": "string",
+              "value": "java-redis"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "67dff6486ee1bb84",
+          "operationName": "FilterParser::parse",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "c138862d6f4bf233"
+            }
+          ],
+          "startTime": 1713457017510931,
+          "duration": 962,
+          "tags": [
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-2"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "e0f92954fa923bb9",
+          "operationName": "BusinessObject::dsQueryModifiers:oraCommonBossLabsCollege:College",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "9b88a726a15198c8"
+            }
+          ],
+          "startTime": 1713457017513105,
+          "duration": 3010,
+          "tags": [
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-2"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "2ab7f95fd3facde3",
+          "operationName": "OPSSAuthorization::getBOConditionsForPrivilege",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "e0f92954fa923bb9"
+            }
+          ],
+          "startTime": 1713457017515183,
+          "duration": 161,
+          "tags": [
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-2"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "113576090f2f0945",
+          "operationName": "AbstractQueryBuilder::andBaseFilters",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "e0f92954fa923bb9"
+            }
+          ],
+          "startTime": 1713457017515628,
+          "duration": 128,
+          "tags": [
+            {
+              "key": "field",
+              "type": "string",
+              "value": "_BOSS_ROW_LEVEL"
+            },
+            {
+              "key": "start.b.o.def",
+              "type": "string",
+              "value": "oraCommonBossLabsCollege.College"
+            },
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-2"
+            },
+            {
+              "key": "action",
+              "type": "string",
+              "value": "read"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1713457017515729,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "SpanHelper_log"
+                },
+                {
+                  "key": "Base global access: ",
+                  "type": "string",
+                  "value": "true"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "148fef1468736c0d",
+          "operationName": "RdbDataProvider::fetch",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "c138862d6f4bf233"
+            }
+          ],
+          "startTime": 1713457017517473,
+          "duration": 1106,
+          "tags": [
+            {
+              "key": "query",
+              "type": "string",
+              "value": "Query={startObject=oraCommonBossLabsCollege.College, view=null, parameters={}, keywords=[], includeTotalItems=false, baseQuery=BaseQuery={fieldNames=[id, name, description], filter=id = 9999, orderBy=[], offset=0, limit=25, privilege=null, keywordFields=[], childQueries={}, subtypeQueries={}}}"
+            },
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-2"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "9b88a726a15198c8",
+          "operationName": "BusinessObject::applyQueryModifiers:oraCommonBossLabsCollege:College",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "c138862d6f4bf233"
+            }
+          ],
+          "startTime": 1713457017512762,
+          "duration": 4382,
+          "tags": [
+            {
+              "key": "query",
+              "type": "string",
+              "value": "Query={startObject=oraCommonBossLabsCollege.College, view=null, parameters={}, keywords=[], includeTotalItems=false, baseQuery=BaseQuery={fieldNames=[id, name, description], filter=id = 9999, orderBy=[], offset=-1, limit=-1, privilege=null, keywordFields=[], childQueries={}, subtypeQueries={}}}"
+            },
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-2"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "c138862d6f4bf233",
+          "operationName": "ReadRequestHandler::readHandler:oraCommonBossLabsCollege/v1:1/colleges",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "ffc679f3f118a3ab"
+            }
+          ],
+          "startTime": 1713457017507650,
+          "duration": 15461,
+          "tags": [
+            {
+              "key": "resource",
+              "type": "string",
+              "value": "oraCommonBossLabsCollege/v1:1/colleges"
+            },
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-2"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1713457017509523,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "thresholdExceeded"
+                },
+                {
+                  "key": "defaultDeploymentId",
+                  "type": "string",
+                  "value": "bos"
+                },
+                {
+                  "key": "deploymentId",
+                  "type": "string",
+                  "value": "1"
+                },
+                {
+                  "key": "title",
+                  "type": "string",
+                  "value": "DeploymentManager::getDeploymentInfo"
+                }
+              ]
+            },
+            {
+              "timestamp": 1713457017510025,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "Threshold exceeded"
+                },
+                {
+                  "key": "durationMillis",
+                  "type": "string",
+                  "value": "2"
+                },
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "thresholdExceeded"
+                },
+                {
+                  "key": "message",
+                  "type": "string",
+                  "value": "ExecutionContextFactory::executionContext"
+                },
+                {
+                  "key": "title",
+                  "type": "string",
+                  "value": "ExecutionContextFactory::executionContext"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "ffc679f3f118a3ab",
+          "operationName": "ObservableRequest::filter",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "705fa1ac3a4f545f"
+            }
+          ],
+          "startTime": 1713457017507088,
+          "duration": 16714,
+          "tags": [
+            {
+              "key": "module",
+              "type": "string",
+              "value": "oraCommonBossLabsCollege"
+            },
+            {
+              "key": "request.id",
+              "type": "string",
+              "value": "17"
+            },
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-2"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "02cd96e795e6b578",
+          "operationName": "JdbcHandler::getConnection:ApplicationDBDS",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "3ca805f992a162bf"
+            }
+          ],
+          "startTime": 1713457017523937,
+          "duration": 589,
+          "tags": [
+            {
+              "key": "module",
+              "type": "string",
+              "value": "oraCommonBossLabsCollege"
+            },
+            {
+              "key": "ds.name",
+              "type": "string",
+              "value": "ApplicationDBDS"
+            },
+            {
+              "key": "pool.name",
+              "type": "string",
+              "value": "BOSS_DATA_514986562"
+            },
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-5"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "3ca805f992a162bf",
+          "operationName": "StreamingQueryExecutor::init",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "0b1462584fcba319"
+            }
+          ],
+          "startTime": 1713457017523663,
+          "duration": 8246,
+          "tags": [
+            {
+              "key": "sql.string",
+              "type": "string",
+              "value": "SELECT COLLEGES.ID AS id,COLLEGES.NAME AS name,COL..."
+            },
+            {
+              "key": "bind.params",
+              "type": "string",
+              "value": "{TMP0=SingleValueParam{TMP0=9999}}"
+            },
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-5"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "f628d7e7fad07a9c",
+          "operationName": "UCPWrapper::dbquery::run::ApplicationDBDS",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "3ca805f992a162bf"
+            }
+          ],
+          "startTime": 1713457017525468,
+          "duration": 6333,
+          "tags": [
+            {
+              "key": "db.instance",
+              "type": "string",
+              "value": "ApplicationDBDS"
+            },
+            {
+              "key": "OCSID.ECID",
+              "type": "string",
+              "value": "e83d5476513a9997f4804f06ecf609d6@@f628d7e7fad07a9c"
+            },
+            {
+              "key": "conn.id",
+              "type": "string",
+              "value": "4"
+            },
+            {
+              "key": "sql.query",
+              "type": "string",
+              "value": "SELECT COLLEGES.ID AS id,COLLEGES.NAME AS name,COLLEGES.DESCR AS description FROM FND_CEA_COLLEGES COLLEGES WHERE COLLEGES.ID=:TMP0 FETCH FIRST 26 ROWS ONLY"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "0b1462584fcba319",
+          "operationName": "StreamingQueryExecutor::fetchRows",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "148fef1468736c0d"
+            }
+          ],
+          "startTime": 1713457017523112,
+          "duration": 9294,
+          "tags": [
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-5"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "16a15ef45a1e1c62",
+          "operationName": "BatchingProcessor::publish",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "c138862d6f4bf233"
+            }
+          ],
+          "startTime": 1713457017532424,
+          "duration": 1339,
+          "tags": [
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "boss-8"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "70ca3a48ca58a854",
+          "operationName": "HTTP GET Request",
+          "references": [],
+          "startTime": 1713457017503489,
+          "duration": 31604,
+          "tags": [
+            {
+              "key": "component",
+              "type": "string",
+              "value": "helidon-webserver"
+            },
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "GET"
+            },
+            {
+              "key": "http.version",
+              "type": "string",
+              "value": "HTTP/1.0"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "/objects/ora/common/bossLabsCollege/v1:1/colleges/9999"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "a9a9518781241793",
+          "operationName": "content-write",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "70ca3a48ca58a854"
+            }
+          ],
+          "startTime": 1713457017533255,
+          "duration": 335,
+          "tags": [
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e83d5476513a9997f4804f06ecf609d6",
+          "spanID": "705fa1ac3a4f545f",
+          "operationName": "ObservabilityPrologue::filter",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e83d5476513a9997f4804f06ecf609d6",
+              "spanID": "70ca3a48ca58a854"
+            }
+          ],
+          "startTime": 1713457017504013,
+          "duration": 34016,
+          "tags": [
+            {
+              "key": "request.id",
+              "type": "int64",
+              "value": 17
+            },
+            {
+              "key": "thread",
+              "type": "string",
+              "value": "nioEventLoopGroup-3-2"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "otel.library.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "boss",
+          "tags": [
+            {
+              "key": "boss.signature",
+              "type": "string",
+              "value": "2404.0.660/d68611bb/boss/2024-02-16T06:37:28Z"
+            },
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "10.89.0.130"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "opentelemetry-java"
+            },
+            {
+              "key": "javavm",
+              "type": "string",
+              "value": "17.0.8+9-LTS-jvmci-22.3-b21"
+            },
+            {
+              "key": "service.name",
+              "type": "string",
+              "value": "boss"
+            },
+            {
+              "key": "user",
+              "type": "string",
+              "value": "jenkins"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    }
+  ],
+  "total": 0,
+  "limit": 0,
+  "offset": 0,
+  "errors": null
+}
